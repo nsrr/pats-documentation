@@ -138,7 +138,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariates/phenotype datasets (CSV)
 
-The covariate dataset files (pats-dataset-0.1.0.csv and pats-harmonized-dataset-0.1.0.csv) contain 1,461 rows each. The first column [public_subject_id](:variables_path:/public_subject_id) is the unique PATS subject identifier that can be linked with PSG signal filenames. There are four time points ([timepoint](:variables_path:/timepoint)) with repeated measures in the dataset: 0 = Screening, 1 = Baseline, 2 = 6-Month, 3 = 12-Month.
+The covariate dataset files (pats-dataset-0.1.0.csv and pats-harmonized-dataset-0.1.0.csv) contain 1,461 rows each. The first column ([public_subject_id](:variables_path:/public_subject_id)) is the unique PATS subject identifier that can be linked with PSG signal filenames. There are four time points ([timepoint](:variables_path:/timepoint)) with repeated measures in the dataset: 0 = Screening, 1 = Baseline, 2 = 6-Month, 3 = 12-Month.
 
 The dataset columns are described in the accompanying data dictionary files. The variables data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the domains data dictionary file. 
 
