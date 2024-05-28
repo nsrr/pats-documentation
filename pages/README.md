@@ -63,7 +63,7 @@ Participants were recruited from the following clinical sites:; Children's Hospi
 
 At baseline, 6-month and 12-month examinations, children were studied at a pediatric research center at a time when they were free of acute illness. At baseline, participants underwent neurobehavioural testing, PSG and assessment of patient-reported outcomes (sleepiness, quality of life and sleep quality), anthropometry, blood pressure, morning urine and blood sample collection. All measures are repeated at 6 and 12 months, except that the PSG is only repeated at 12 months. Neurobehavioral testing was conducted by staff blinded to treatment, trained and supervised by board-certified psychologists. Assessments at follow-up visits included clinical evaluation, anthropometry, neurobehavioral testing, and distribution of wrist actigraphy devices for in-home use for 7 days. The order of administration for child assessments were (1) 9-Hole Pegboard Dexterity Test; (2) GNG Test; and (3) Child Report version of PedsQL (as age appropriate). After March 2020, the 6-month examinations were simplified to address the challenges of in-person testing during the COVID-19 pandemic. Those 6-month follow-up visits were permitted to be conducted remotely, focusing on collection of the BRIEF primary outcome.
 
-Randomization: At the end of the baseline visit, 231 participants were randomized to early adenotonsillectomy (eAT, within 4 weeks) while 228 Watchful Waiting with Supportive Care (WWSC). 188 and 196 children from the treatment arm had 6-month and 12-month visits, respectively.  Comparable numbers of randomized children in the eAT and WWSC in the NSRR dataset are X and Y, respectively.
+Randomization: At the end of the baseline visit, 231 participants were randomized to early adenotonsillectomy (eAT, within 4 weeks) while 228 Watchful Waiting with Supportive Care (WWSC). 188 and 196 children from the treatment arm had 6-month and 12-month visits, respectively. Comparable numbers of randomized children in the eAT and WWSC in the NSRR dataset are 167 and 163, respectively.
 
 ### PSG collection
 
@@ -136,6 +136,40 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ## Data overview
 
+### Covariates/phenotype datasets (CSV)
+
+The covariate dataset files (pats-dataset-0.1.0.csv and pats-harmonized-dataset-0.1.0.csv) contain 1,461 rows each. The first column [:variables_path:/public_subject_id]((public_subject_id)) is the unique PATS subject identifier that can be linked with PSG signal filenames. There are four time points ([:variables_path:/timepoint](timepoint)) with repeated measures in the dataset: 0 = Screening, 1 = Baseline, 2 = 6-Month, 3 = 12-Month.
+
+The dataset columns are described in the accompanying data dictionary files. The variables data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the domains data dictionary file. 
+
+The history of the covariate dataset and data dictionary files have been tracked on GitHub (https://github.com/nsrr/pats-data-dictionary). 
+
+The harmonized-dataset contains many of the most frequently used demographic and sleep variables. These variables were curated by the NSRR team. 
+
+<details>
+  <summary>Expand to see a selection of key harmonized variables:</summary>
+
+  <table>
+    <tr><td><b>Variable</b></td><td><b>Label</b></td></tr>
+    <tr><td><a href=":variables_path:/nsrr_age">nsrr_age</a></td><td>Subject age</td></tr>
+    <tr><td><a href=":variables_path:/nsrr_sex">nsrr_sex</a></td><td>Subject sex</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_race">nsrr_race</a></td><td>Subject race</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_ethnicity">nsrr_ethnicity</a></td><td>Subject ethnicity</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_bmi">nsrr_bmi</a></td><td>Body mass index (BMI)</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_bp_systolic">nsrr_bp_systolic</a></td><td>Systolic blood pressure</td></tr> 
+    <tr><td><a href=":variables_path:/nsrr_bp_diastolic">nsrr_bp_diastolic</a></td><td>Diastolic blood pressure</td></tr> 
+  </table>
+
+</details>
+
+### PSG signal files (EDF/XML)
+
+<table>
+   <tr><td><b>File type</b></td><td><b>File path</b></td><td><b>Description</b></td></tr>
+   <tr><td><b>Harmonized</b></td><td>  <a href=":files_path:/polysomnography">/polysomnography</a>
+    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats</a>). </td></tr>
+   <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG">/original</a></td><td> Files exported from Compumedics Profusion after scoring at the Sleep Reading Center. Each recording contains an EDF signal file and XML scoring annotation file. </td></tr>
+</table>
 
 ## Access and usage restrictions
 
@@ -155,7 +189,7 @@ Users must include the following text in any Acknowledgements:
 
 ## Changelog
 
-*May 2024*
+*June 2024*
 
 - Make PATS dataset available for data requests
 
