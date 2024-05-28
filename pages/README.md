@@ -63,7 +63,7 @@ Participants were recruited from the following clinical sites:; Children's Hospi
 
 At baseline, 6-month and 12-month examinations, children were studied at a pediatric research center at a time when they were free of acute illness. At baseline, participants underwent neurobehavioural testing, PSG and assessment of patient-reported outcomes (sleepiness, quality of life and sleep quality), anthropometry, blood pressure, morning urine and blood sample collection. All measures are repeated at 6 and 12 months, except that the PSG is only repeated at 12 months. Neurobehavioral testing was conducted by staff blinded to treatment, trained and supervised by board-certified psychologists. Assessments at follow-up visits included clinical evaluation, anthropometry, neurobehavioral testing, and distribution of wrist actigraphy devices for in-home use for 7 days. The order of administration for child assessments were (1) 9-Hole Pegboard Dexterity Test; (2) GNG Test; and (3) Child Report version of PedsQL (as age appropriate). After March 2020, the 6-month examinations were simplified to address the challenges of in-person testing during the COVID-19 pandemic. Those 6-month follow-up visits were permitted to be conducted remotely, focusing on collection of the BRIEF primary outcome.
 
-Randomization: At the end of the baseline visit, 231 participants were randomized to early adenotonsillectomy (eAT, within 4 weeks) while 228 Watchful Waiting with Supportive Care (WWSC). 188 and 196 children from the treatment arm had 6-month and 12-month visits, respectively. Comparable numbers of randomized children in the eAT and WWSC in the NSRR dataset are 167 and 163, respectively.
+Randomization: At the end of the baseline visit, 231 participants were randomized to early adenotonsillectomy (eAT, within 4 weeks) while 228 Watchful Waiting with Supportive Care (WWSC). 188 and 196 children from the treatment arm had 6-month and 12-month visits, respectively. Comparable numbers of [randomized children in the eAT and WWSC in the NSRR dataset are 167 and 163](:variables_path:/studyinfo_randomized_arm), respectively.
 
 ### PSG collection
 
@@ -138,7 +138,7 @@ All personally identifiable information (PII) has been removed from the data fil
 
 ### Covariates/phenotype datasets (CSV)
 
-The covariate dataset files (pats-dataset-0.1.0.csv and pats-harmonized-dataset-0.1.0.csv) contain 1,461 rows each. The first column [:variables_path:/public_subject_id]((public_subject_id)) is the unique PATS subject identifier that can be linked with PSG signal filenames. There are four time points ([:variables_path:/timepoint](timepoint)) with repeated measures in the dataset: 0 = Screening, 1 = Baseline, 2 = 6-Month, 3 = 12-Month.
+The covariate dataset files (pats-dataset-0.1.0.csv and pats-harmonized-dataset-0.1.0.csv) contain 1,461 rows each. The first column [public_subject_id](:variables_path:/public_subject_id) is the unique PATS subject identifier that can be linked with PSG signal filenames. There are four time points ([timepoint](:variables_path:/timepoint)) with repeated measures in the dataset: 0 = Screening, 1 = Baseline, 2 = 6-Month, 3 = 12-Month.
 
 The dataset columns are described in the accompanying data dictionary files. The variables data dictionary file includes column names (id), labels (display names), descriptions, and other metadata. Categorical variables also include an associated "domain" (e.g., 1=Male, 0=Female), which are described in the domains data dictionary file. 
 
