@@ -9,31 +9,37 @@ The study's coprimary endpoints are (1) change from baseline in executive behavi
 <details>
   <summary>The study's secondary endpoints include (click to expand):</summary>
 
-Objective performance testing	
+*Objective performance testing*
+
 - GNG inhibitory control d-prime
 - Fine motor coordination: NIH-Toolbox 9-Hole Pegboard Dexterity Test
 
-Behavioral scale
+*Behavioral scale*
+
 - Executive function: BRIEF 2/P meta-cognition and emotional regulation summary scores and subscales for parent and teacher reports
 - Behavior: Child Behavior Checklist (CBCL) summary scale and subscores, parent and teacher ratings
 - Attention: Conners 3 Short Form (caregiver and teacher versions) Global Index T score and subscales
 
-Sleep-disordered breathing symptoms	
+*Sleep-disordered breathing symptoms*	
+
 - PSQ-SRBD Scale total score
 - Sleepiness: Epworth Sleepiness Scale modified for children summary score and PSQ-SRBD sleepiness scale
 
-Quality of life	
+*Quality of life*	
+
 - Generic: Pediatric Quality of Life Inventory total score and subscores
 - Disease specific: Obstructive Sleep Apnea-18 (OSA-18) total score
 
-Physical exam	
+*Physical exam*	
+
 - Measurements of weight; height; body mass index; waist, hip and neck circumferences
 - Systolic, diastolic and mean blood pressure levels
 
-Healthcare use	
+*Healthcare use*	
+
 - Medications, healthcare visits (scheduled and unscheduled), ascertained from caregiver reports, EMR surveillance, billing and pharmacy records and hospitalizations
 </details>
-
+<br><br>
 
 The PATS dataset includes core demographic and minimal polysomnography (PSG) data from the screening visit, and additional cognitive behavioral, quality of life, sleep disordered breathing symptoms, anthropometry, blood pressure, tobacco exposure and immunoglobulin titers, healthcare use, PSG and actigraphy from randomized children from baseline and follow-up visits. The PSG data were obtained from the standard laboratory-based overnight sleep study from the baseline clinic visit  and 12-month follow-up visit. 7-day actigraphy was collected from children using Actiwatch 2 or Actiwatch Spectrum (Philips Respironics, Bend, OR) actigraph, and GT3X+ (ActiGraph, Pensacola, FL)  as part of the baseline examinations from 2016 to early 2020 (Actigraphy data collection stopped due to the COVID-19 pandemic .) Behavior and neuropsychological assessments including Behavior Rating Inventory of Executive Function (BRIEF) and Go-No-Go (GNG) vigilance test were conducted at baseline and the 12-month follow up visit. Other demographic information and survey questionnaires such as Child Behavior Checklist (CBCL), Adaptive Behavior Assessment System, Allergies in Childhood (ISAAC) questionnaire, Epworth Sleepiness Scale (ESS), Pediatric Quality of Life Inventory (PedsQL), were collected from baseline and follow-up visits.
 
