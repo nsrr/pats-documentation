@@ -175,7 +175,7 @@ The harmonized-dataset contains many of the most frequently used demographic and
 
 The PATS dataset is only available for non-commercial use.
 
-## Citation and acknowledgements
+## Citation and acknowledgement
 
 When using this dataset, users must cite the following:
 
