@@ -195,7 +195,6 @@ Users must include the following text in any Acknowledgements:
 
 ## References
 
-- PATS Manual of Procedures (MOP) (PDF)
 - PATS at ClinicalTrials.gov: [ClinicalTrials.gov (NCT02562040)](https://www.clinicaltrials.gov/study/NCT02562040?term=NCT02562040&rank=1)
 - PATS GitHub Data Dictionary: https://github.com/nsrr/pats-data-dictionary
 - PATS GitHub Documentation: https://github.com/nsrr/pats-documentation
