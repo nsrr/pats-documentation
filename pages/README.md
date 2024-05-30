@@ -181,6 +181,8 @@ When using this dataset, users must cite the following:
 
 > [Zhang GQ, Cui L, Mueller R, Tao S, Kim M, Rueschman M, Mariani S, Mobley D, Redline S. The National Sleep Research Resource: towards a sleep data commons. J Am Med Inform Assoc. 2018 Oct 1;25(10):1351-1358. doi: 10.1093/jamia/ocy064. PMID: 29860441; PMCID: PMC6188513.](https://pubmed.ncbi.nlm.nih.gov/29860441/)
 > 
+> [Wang R, Bakker JP, Chervin RD, Garetz SL, Hassan F, Ishman SL, Mitchell RB, Morrical MG, Naqvi SK, Radcliffe J, Riggan EI, Rosen CL, Ross K, Rueschman M, Tapia IE, Taylor HG, Zopf DA, Redline S. Pediatric Adenotonsillectomy Trial for Snoring (PATS): protocol for a randomised controlled trial to evaluate the effect of adenotonsillectomy in treating mild obstructive sleep-disordered breathing. BMJ Open. 2020 Mar 15;10(3):e033889. doi: 10.1136/bmjopen-2019-033889. PMID: 32179560; PMCID: PMC7073822.](https://pubmed.ncbi.nlm.nih.gov/32179560/)
+> 
 > [Redline S, Cook K, Chervin RD, Ishman S, Baldassari CM, Mitchell RB, Tapia IE, Amin R, Hassan F, Ibrahim S, Ross K, Elden LM, Kirkham EM, Zopf D, Shah J, Otteson T, Naqvi K, Owens J, Young L, Furth S, Connolly H, Clark CAC, Bakker JP, Garetz S, Radcliffe J, Taylor HG, Rosen CL, Wang R; Pediatric Adenotonsillectomy Trial for Snoring (PATS) Study Team. Adenotonsillectomy for Snoring and Mild Sleep Apnea in Children: A Randomized Clinical Trial. JAMA. 2023 Dec 5;330(21):2084-2095. doi: 10.1001/jama.2023.22114. PMID: 38051326; PMCID: PMC10698619.](https://pubmed.ncbi.nlm.nih.gov/38051326/)
 
 Users must include the following text in any Acknowledgements:
