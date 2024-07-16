@@ -168,9 +168,9 @@ The harmonized-dataset contains many of the most frequently used demographic and
    <tr><td><b>File type</b></td><td><b>File path</b></td><td><b>Description</b></td></tr>
    <tr><td><b>Harmonized</b></td><td><a href=":files_path:/polysomnography">/polysomnography</a>
     </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats" target="_blank">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats</a>).<br><br>
-    Download: <b>nsrr download pats/polysomnography</b> (<a href="http://github.com/nsrr/nsrr-gem/" target="_blank">gem instructions</a></td></tr>
+    Download: <b>nsrr download pats/polysomnography</b> (<a href="http://github.com/nsrr/nsrr-gem/" target="_blank">gem instructions</a>)</td></tr>
    <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG">/original</a></td><td> Files exported from Compumedics Profusion after scoring at the Sleep Reading Center. Each recording contains an EDF signal file and XML scoring annotation file.<br><br>
-    Download: <b>nsrr download pats/original</b> (<a href="http://github.com/nsrr/nsrr-gem/" target="_blank">gem instructions</a></td></tr>
+    Download: <b>nsrr download pats/original</b> (<a href="http://github.com/nsrr/nsrr-gem/" target="_blank">gem instructions</a>)</td></tr>
 </table>
 
 ## Access and usage restrictions
