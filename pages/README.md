@@ -167,7 +167,11 @@ The harmonized-dataset contains many of the most frequently used demographic and
 <table>
    <tr><td><b>File type</b></td><td><b>File path</b></td><td><b>Description</b></td></tr>
    <tr><td><b>Harmonized</b></td><td>  <a href=":files_path:/polysomnography">/polysomnography</a>
-    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats</a>). </td></tr>
+    </td><td> Files processed and harmonized (from the <b>As is</b> file set) to match NSRR signal and annotation naming standards. The processing steps have been documented here (<a href="https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats">https://gitlab-scm.partners.org/zzz-public/nsrr/-/tree/master/studies/pats</a>). 
+
+    <br><br>
+
+    <a href="https://github.com/nsrr/nsrr-gem/">NSRR gem</a> download command: **nsrr download pats/polysomnography**</td></tr>
    <tr><td><b>As is</b></td><td>  <a href=":files_path:/original/PSG">/original</a></td><td> Files exported from Compumedics Profusion after scoring at the Sleep Reading Center. Each recording contains an EDF signal file and XML scoring annotation file. </td></tr>
 </table>
 
