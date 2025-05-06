@@ -116,7 +116,7 @@ Behavior and neuropsychological assessments were performed with a standardized p
 - Conners 3rd Edition Short Form (Conners 3) (both the caregiver and teacher versions) – assess attention.
 - Caregiver Adaptive Behavior Assessment System (ABAS-3) – assess adaptive behavior.
 
-Other symptoms, quality of life and physical assessment
+Other symptoms, quality of life and physical assessment:
 
 - Sleepiness: Epworth Sleepiness Scale for Children and Adolescents (ESS-CHAD), Pediatric Sleep Questionnaire Sleep Related Breathing Disorder (SRBD)
 - Asthma: International Study of Asthma and Allergies in Childhood (ISAAC) questionnaire, Composite Asthma Severity Index (CASI), Immunoglobulin (IgE).
@@ -127,7 +127,6 @@ Other symptoms, quality of life and physical assessment
 - Parenting style: Parenting Style Questionnaire.
 - Parent perception of stress: Parenting Stress Index Short Form (PSI-4:SF).
 - Health literacy: Rapid Estimate of Adult Literacy in Medicine, Revised (REALM-R).
-- Influence of discrimination on health outcomes: Experiences of Discrimination.
 - Second-hand smoke exposure: Urinary cotinine.
 
 ## Data de-identification
